@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Usosweb" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Grupa wątków" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1509996261000</longProp>
+        <longProp name="ThreadGroup.end_time">1509996261000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">C:\Users\Patrycja\Desktop\dane.csv</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.thread</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">id,password</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+          <collectionProp name="CookieManager.cookies"/>
+          <boolProp name="CookieManager.clearEachIteration">true</boolProp>
+        </CookieManager>
+        <hashTree/>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+          <collectionProp name="HeaderManager.headers"/>
+        </HeaderManager>
+        <hashTree/>
+        <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
+          <boolProp name="clearEachIteration">true</boolProp>
+          <boolProp name="useExpires">false</boolProp>
+        </CacheManager>
+        <hashTree/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Home" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">usosweb.uni.lodz.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value"></stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_ga=GA1.2.954508117.1465680861; _gid=GA1.2.1146141616.1509914187; PHPSESSID=ar5i10f2v77n6i2k6v2l5f5as4</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Content-Type	 </stringProp>
+                  <stringProp name="Header.value">text/html; charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">v1</stringProp>
+              <stringProp name="RegexExtractor.regex"></stringProp>
+              <stringProp name="RegexExtractor.template">$1$</stringProp>
+              <stringProp name="RegexExtractor.default">ERROR</stringProp>
+              <stringProp name="RegexExtractor.match_number">0</stringProp>
+            </RegexExtractor>
+            <hashTree/>
+          </hashTree>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller Home" enabled="true">
+            <stringProp name="IfController.condition">${v1} != &quot;ERROR&quot;</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+          </IfController>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="username" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">${id}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">username</stringProp>
+                </elementProp>
+                <elementProp name="password" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">${password}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">password</stringProp>
+                </elementProp>
+                <elementProp name="lt" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">lt</stringProp>
+                </elementProp>
+                <elementProp name="execution" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">1471de02-e480-47af-9fd5-d97647384669_ZXlKaGJHY2lPaUpJVXpVeE1pSjkuTUdkVE1ITkROV28yZUUxdmJpOWpka0ZrZWxGQlZWbGlTSGxqYmxKdFF6SnhNbll6TTNSTlVEUXphMGRUZVhBeVMyeHJaV2h4ZFM5Qk4yaFZWRVZKYnpOV1ZGVlRSVlVyWW5sVlpub3pkbXRrVFU1T1FsRlpORU5vTkhKdlJGZExNRlJVT0c5MU1FMVZZVUUxWm5wQ1lVUlpVRXcyVTNKM01EWkxlRk5QU1ZWS2JWbzBOVmhwTUcxcWRrNHZZVUYwUW10SFpIUk1kalpWZEd4aFpFTnZNRUZKV1dGTmFGaHNTbE5vYnpkbFltWmlVSFpHY2twelZFOXlkV3gxYUd0VGRrdElkbnBFYkhKTmFqWjNPRTR2V2tob2F6RTRRM2t6YkZoRmNVeDBiM3BuWlRSYWEyMXZUR3hZY0ZOc1JucFhlSEJvZEc1Qk5VMTVLMHN2WVdZMmJVMVNMM0UwV21KRFdFZDBUV0ZYTkU1eFMybFZVRWxxVVZsSVpUbExOR05rWmxRdk4ybENaMEpaVURWQ2IyeFlOR1JOU1hGbE1FUlllbkpRUkZKWFlYQTJVbUZFYmxVcmFsRm5UMnhyUTBZNWMzUnBaMVpZWmpsMWJHZDNaek5RTTJNclRGazFNRGwyV0hObFRrUk9TR1JCTUhkdGFTdERVVVpZWVRZdk5tZDRaMjlQUzJGV1pIVlFNVWxFYlhOVGRTOUllbE55U1hSUlpEZHlOamxJU0hJMFYwMXpVa2RuV0VWaVkyMW1RalpPZDJONGJVRk1XSGMxVEVsU2VWUTFWRmMyVVZob00zWkpTbE5QUldGaU5HWlJhVkEzWm10SWRETjZTbGg0T0VwM01qWm1lVE5hUjJoMk4ycHFabkZqUkdSd1VHZEpXbHBhVUdwNWNuWlpaMGRoTms1alVsZGxTRlV2YTJWSFIxbFFXbEJLTW5SWE1HOVVTa3czZVRVdkszUXJXVVY2UTA1a1VVdE1SM2xxUjJoT1IxSkphMlpXV0V3M1kzbDJVMHhUYm1FdmJYZDZNV1V3Y0ZFNUswNVFVU3RQUTBGRVJVOVFVa3BMZVN0TVdFUkhVVTR2U0RkYWVGWjZUVFZCWkRseVltOHlTMGd5YjJwc2RDOXNSbmhJVVRWRFUxTnJTa2hQVkU1eWQxSkZhekZGUWl0UGQxTk9jMmhDZGs5UE1VbG9URkJZTkZOM1pGTTBXSFkxTVdFM1NscEpOVXhyWTFOb1NqSkJjMWhrVHpsT2JEYzNZakJKUVdjellXOTNlSGhoWjJ4V1QzRkthMVZVU1dWWFJtOXJVSHB5VTBNemJHWkhjalkyT0c5NVNrNXJjWEZVYkRCNlRWWm5ORWxuWXpWdFFVOTZUVE5uU21JMEsyUk9UMWhDVkVWa1QxaE9ZbE5MTDBwTGRHSmlSa3B0UlhkcmExRlNTWEJwT0dodUt5dExkbWxvTWpoTFpuSkJjVXBPT1hFMU5HWnpSbWw0TUc5a05uYzRUMlZwVjJGQ1p6SjRVRGxGTlZOS1YySmlUM2wxTTNOaksyOTRaakoxVmpoVVRUVm1aWGw2TkdWU1l6QXZLM2hvVTNkWVYzbG1Zakk0WldaWFNWTk5ia2xyU0daclpGcFdWWGw2Y1U0MGNpdEhVV3hST1VGWGVWWmlUR3hhVVRRemNIaG9URmRVT0d4MU5Ib3JabWhxZG5WVGQwUXlhMG81YVRVeFJXSlFjVlU0YlhORmNXcDBLMEZTVld3eGJYWjBlVnBzU0N0bEszWjVhRTlVVlN0YWNXRjZOMW81Y1hOeFJFUjBUV1pWYURaQk1HRnZla1ZPVDNWaU5GQlhlSGxHTDNwalJ6bFhOM2h6VTNGMmVXTkdWeTlqUVcxV1dFRk9RV2hHU0ROb1ExRm5UbkVyYkRCWGMzWjBha04yY2s5WVdVWjZielpvY1U5c2JIQXdVRWhCUlVoWVUwTkxhRkoyU1UwdlVUaFZUUzlDZHpOU2RWTnJkV2hLY2tVeFdGTnhkbmsyV0RVNFdVRndNRlZMSzJFeE1VeEJVVTQzVDJ3ck9HcE1iV3BhVm1KaFpEQjVRMU0wTDBKTFp6TmpRbmhwUlhJMGNEbEZURGgyTWxjNVZEUkphbTF0VkRaMUwzWmpSM0kwYlRkelR5c3lRMGhsVGxGSmNsbFdMelEwVWxwM2NUSmpjVGg2VWtsMGJGSklZbUZ6TjBOeVkwNU9WbWN2U2xKUFRHOUNOWEJITmxnM00ydFdVVVJzTlc1SFUxZG9jRFJFYldFeWMyUmpjMmhSUm1nd05GTndUVE01TkVoMWNXVm1MMFpNTm5CSVpXWkJUa013TlcxNWFtOWlNbXRJUTI5MVVVUkJiR2MyZEdOSGRVbFhWbUZ6ZUZFMFRFdDRibWR6TldaRmNUVk9lamRMT1ZJcloyeE1NMGRvYnpkRmFFSjZSVWt5ZVVwWVdXbFlhbUZMYzJObFlsQmhSV281TVM5Q1ltRmhObmx3ZG01Rk4yeDViakZFU0dwc1JsZG9TMGs0TjBGbVJscFFTbXBPWVRoRWJYVnZZekZNVVZGREsxQlpVMXBhV1VKTFZWY3pjVXBSWVZKMGJHcHhOVzVtUjBsNE1YTkZUbkF2VEZkQ05uVkZZa0pLYkdORWFFMW5iRzlsTjFOUGRXZDVUWFZNZUhkM1ptaEVhRkpqYldOUGJtcHZUbUY1WmpndldWUjRjVEowTVdGdVNWWmFRMFZqWTJOblFVUnVUVXBFYUdaQlZrODBkSGxsTUZwQmFXRm9Xa05JT1ZkTFMyZDJSR0Y0WTBaclZsTTBSbmh0V2pKQlZWQm1UR2MzUlVrNU4zbE5TRGhyVVhFNVpWbG5hMlZYUVM5alNVRnJTblpWVDBvMWNtdGhORmRvWWxaSVNXRkpkekpJUkdNelFWRnNkR1ZCUVhNMldXOXBjWEJHY1ZaaFVWTXJZMjlGVG01b2VscFpVVWxOZG1sWmQxaE9UMkUwT0VkS1dFOVVTWEZGU0c4MFdXRlhVM0ZzWmxZNFJUWkpNVTB4VlZveGExVTBVMmxJUmxsNGFtVTBkV1JyVm1VcllteDBNMnhyZERsaWRHOXZjbWxPVG1wc1MySnNZa1J4UkVaRFR5OU1XV2RMTkhkQmVrcG9kV0ZMTnpSaFdYVjFSbGhNYTJOdlowbFFWMVpwWmtkR1lsbzFXVmRVZVdoNVlsb3JZbmd4VW1KbVIzcFNVRGhwVFVsTVdHNUdhR05DTmtwaE9FOURNa2RhU0hVNGNXZDNObEZvWkVZeVZGWllSbXRrUnpORGJIRnRObTVqUm05NVYzQjRkVzVIYmxZek0xUkxNeTh6U25kU2RYbHFlWGhoVjI1dVRGZGthWFZvUjJWWFRVUnVNMGhJV0VVM1JWTktZeXMyYTJ0bE9XNWpjMFZVVUdkcU0wVnBRbTF4VUVsMVN5OUVXRlpGUWxOdGIwTkljRkowVkZsUFdYbFRObVJxVFU0MmVIaGFOMHB5VVZGSk16UXZaSFU1YUdKS1prcGFNWEk0ZW5CbFkwRnVXRVUxUW1RNWJtaE1jMEpvVm14blNXbHViVTlEUkZWTGJYVjJjbTV0Y0hWaFQzaHZZekpKZDI1RksxUklVMGN6V25VMFJtbHVUVVYxZEdrNGJYWnFObGg2YlZFNVZVcGpWWGhZWTJkdlpDOXBPRlpDTUZKQlduTmFibmhYUm5sbE1uaFpUMEV5ZDNSRVZqWjZOMVIxYms5bEsxWnhTRk5MZUcxS1owOXNVM1Z3VUhaUFUyRjVUa1F3S3paMmVTczRTMFpyUWxCS1ltMW5kSGQzUmxwaE9YVXhXaTgzTjBoYU9FaDVNamxuVFRobWJWQnZSVVJRT1VZNFZWbHFabU5VTVhSbFIwNDJUVFJVV1ZVeFNsaEpZbFV5Y0VSeWRVbzNielp3WkVoWmVGWXlNalkxZWxrelduRTJlRTg1TDFKWlNraEhNVkkzVERST056WjBVakV3UzB4bGQwazVhSEZDU0VnNVJsTkZkMU5DY1VwM2NFSklkMEZuYVd3MFYyUkVaMEpOWVhKTFVrWkRiaXMwU2tWQ1NGZzBRbGhUUm1ZelpVMDNNRTFRYmsxM1JIQnpNMmxSTW5GNFV5dG1SVXA2TmpOb2MyVkZOa2hLY1ZCRU4wVkVSakYyV1c5bmVXcDZXRTFCUzJ0WlpFRmlWM3BGVUZWUFJUQnlWVmR2Ym5kdlNFZFFaMHAwZDJKNGEwUk1NSFJFVlN0UWFUazBUM2swVkhKcVdWRlZjMnRRT0d0dmFWY3pVVzlMZWtWSU1IRmphVkp2T0M5MlVsVXdXamxOWmxsYVowWlVXVnB6TTFOSlRVbFlVWGQ0Y0ROeWVYazNhV05SVWxJMk5ITTJTak4zWWxGSk0xTXJWbnB2VW1SYWVXaHhObGRpYm1kVS51dmgyOXR3Z1Vrc1FyLWdndG1QYkVZVlhUODZuOFFCUGs2clk5S3FFQzFfLWZEd3FFRGxjcTZfbWdJUkU1QVkxNEdpWkliR3UwZmFTa3YxcXpKZmxidw==</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">execution</stringProp>
+                </elementProp>
+                <elementProp name="_eventId" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">submit</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">_eventId</stringProp>
+                </elementProp>
+                <elementProp name="submit" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">Zaloguj</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">submit</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">logowanie.uni.lodz.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://logowanie.uni.lodz.pl/login?service=https%3A%2F%2Fusosweb.uni.lodz.pl%2Fkontroler.php%3F_action%3Dlogowaniecas%2Findex&amp;locale=pl</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_ga=GA1.2.954508117.1465680861; _gid=GA1.2.1146141616.1509914187; JSESSIONID=55D827757873ECF3B62DB731C942A466; org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=pl</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">v2</stringProp>
+              <stringProp name="RegexExtractor.regex">Informatyka studia stacjonarne</stringProp>
+              <stringProp name="RegexExtractor.template">$2$</stringProp>
+              <stringProp name="RegexExtractor.default">ERROR</stringProp>
+              <stringProp name="RegexExtractor.match_number">0</stringProp>
+            </RegexExtractor>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+          </hashTree>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller Login" enabled="true">
+            <stringProp name="IfController.condition">${v2} != &quot;ERROR&quot;</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+          </IfController>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="For Students" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">usosweb.uni.lodz.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/kontroler.php?_action=dla_stud/index</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://usosweb.uni.lodz.pl/kontroler.php?_action=home/index</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_ga=GA1.2.954508117.1465680861; _gid=GA1.2.1146141616.1509914187; PHPSESSID=mvvopi53cg3agdbtc5kt327a66</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value"> text/html; charset=utf-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Mark" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">usosweb.uni.lodz.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/kontroler.php?_action=dla_stud/studia/oceny/index</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value"> https://usosweb.uni.lodz.pl/kontroler.php?_action=dla_stud/index</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_ga=GA1.2.954508117.1465680861; _gid=GA1.2.1146141616.1509914187; PHPSESSID=mvvopi53cg3agdbtc5kt327a66</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value"> text/html; charset=utf-8</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">no-store, no-cache, must-revalidate, post-check=0, pre-check=0</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Search" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">usosweb.uni.lodz.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/usosapiProxy.php?_method_=services/users/search_history_affect</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/javascript, */*; q=0.01</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://usosweb.uni.lodz.pl/kontroler.php?_action=katalog2/index</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_ga=GA1.2.954508117.1465680861; _gid=GA1.2.1146141616.1509914187; PHPSESSID=mvvopi53cg3agdbtc5kt327a66; _gat=1</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">X-Requested-With</stringProp>
+                  <stringProp name="Header.value">XMLHttpRequest</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">no-cache, no-store, must-revalidate, post-check=0, pre-check=0</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">v4</stringProp>
+              <stringProp name="RegexExtractor.regex">współuczestniczył wraz z Tobą w następujących zajęciach</stringProp>
+              <stringProp name="RegexExtractor.template">$4$</stringProp>
+              <stringProp name="RegexExtractor.default">ERROR</stringProp>
+              <stringProp name="RegexExtractor.match_number">0</stringProp>
+            </RegexExtractor>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+          </hashTree>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller Search" enabled="true">
+            <stringProp name="IfController.condition">${v4} != &quot;ERROR&quot;</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+          </IfController>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Logout" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">logowanie.uni.lodz.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/logout?service=https://usosweb.uni.lodz.pl/kontroler.php?_action=news/default</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://usosweb.uni.lodz.pl/kontroler.php?_action=katalog2/osoby/pokazOsobe&amp;os_id=200803</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_ga=GA1.2.954508117.1465680861; _gid=GA1.2.1146141616.1509914187; JSESSIONID=55D827757873ECF3B62DB731C942A466; org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=pl</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+          </hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>true</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <sentBytes>true</sentBytes>
+                <threadCounts>true</threadCounts>
+                <idleTime>true</idleTime>
+                <connectTime>true</connectTime>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+          <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>true</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <sentBytes>true</sentBytes>
+                <threadCounts>true</threadCounts>
+                <idleTime>true</idleTime>
+                <connectTime>true</connectTime>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="Brudnopis" enabled="true">
+      <boolProp name="WorkBench.save">true</boolProp>
+    </WorkBench>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
