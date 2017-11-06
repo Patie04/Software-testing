@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1509982527213,337,Home,200,OK,Grupa wątków 1-1,text,true,,12070,611,1,1,296,0,195
+1509982527565,97,Logo_Icons,200,OK,Grupa wątków 1-1,bin,true,,20245,483,1,1,64,0,0
+1509982527663,775,Login,200,OK,Grupa wątków 1-1,text,true,,12939,1714,1,1,592,0,0
+1509982528443,125,Personal data,200,OK,Grupa wątków 1-1,text,true,,11499,583,1,1,95,0,0
+1509982528569,119,Wish List,200,OK,Grupa wątków 1-1,text,true,,10525,584,1,1,87,0,0
+1509982528689,220,My orders,200,OK,Grupa wątków 1-1,text,true,,11478,1876,1,1,55,0,0
+1509982528913,594,Search,200,OK,Grupa wątków 1-1,text,true,,23833,686,1,1,549,0,0
+1509982529514,268,Search jpg,200,OK,Grupa wątków 1-1,bin,true,,55269,314,1,1,143,0,93
+1509982529783,185,Logout,200,OK,Grupa wątków 1-1,text,true,,11558,1735,1,1,42,0,0
