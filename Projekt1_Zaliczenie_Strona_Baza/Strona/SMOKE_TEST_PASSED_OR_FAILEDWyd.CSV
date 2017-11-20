@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1511191548277,978,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16965,3388,10,10,623,0,82
+1511191550551,534,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16965,3388,10,10,167,0,98
+1511191554109,1502,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16965,3388,10,10,561,0,298
+1511191560619,532,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16965,3388,10,10,168,0,115
+1511191565612,625,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16965,3388,10,10,267,0,198
+1511191571527,537,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16965,3388,10,10,180,0,112
+1511191572777,530,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16965,3388,10,10,157,0,92
+1511191578971,521,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16965,3388,10,10,156,0,96
+1511191583989,520,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16965,3388,10,10,160,0,90
+1511191589162,243,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,200,0,95
+1511191593601,237,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,189,0,88
+1511191596144,522,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16965,3388,10,10,160,0,86
+1511191596634,227,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,182,0,96
+1511191605609,412,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,363,0,112
+1511191609512,302,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,262,0,89
+1511191613604,408,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,361,0,106
+1511191617607,366,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,328,0,93
+1511191621618,347,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,307,0,92
+1511191625620,369,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,330,0,98
+1511191629899,307,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,264,0,91
+1511191633903,351,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,318,0,89
+1511191637618,382,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,351,0,102
+1511191641909,326,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,286,0,82
+1511191645727,326,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,295,0,83
+1511191649835,357,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,309,0,96
+1511191653735,308,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,273,0,95
+1511191657775,268,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,226,0,90
+1511191661793,210,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,88
+1511191665772,223,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,179,0,91
+1511191669831,216,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,175,0,90
+1511191673789,244,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,197,0,91
+1511191677759,215,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,161,0,85
+1511191681815,876,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,830,0,87
+1511191685813,227,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,180,0,89
+1511191689782,230,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,183,0,97
+1511191693831,870,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,837,0,97
+1511191697875,241,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,171,0,83
+1511191701928,305,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,273,0,92
+1511191705915,274,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,224,0,103
+1511191717925,310,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,280,0,94
+1511191867305,1045,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,698,0,161
+1511191873768,563,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,154,0,83
+1511191878137,479,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,148,0,87
+1511191883445,548,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,166,0,109
+1511191883791,502,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,145,0,78
+1511191890514,524,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,158,0,100
+1511191894657,539,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,156,0,90
+1511191900441,751,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,220,0,129
+1511191904086,851,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,189,0,87
+1511191909093,393,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,354,0,110
+1511191913577,435,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,391,0,106
+1511191915786,1589,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,224,0,106
+1511191921664,635,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,563,0,89
+1511191925591,383,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,337,0,101
+1511191929638,371,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,333,0,85
+1511191933619,349,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,310,0,83
+1511191937602,495,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,454,0,99
+1511191941392,302,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,265,0,71
+1511191945293,294,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,257,0,110
+1511191949748,230,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,189,0,105
+1511191953705,241,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,201,0,99
+1511191956554,386,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,243,0,82
+1511191961505,214,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,176,0,95
+1511191965759,215,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,181,0,94
+1511191969770,221,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,172,0,82
+1511191973793,206,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,164,0,83
+1511191977645,223,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,183,0,89
+1511191981841,302,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,263,0,163
+1511191985845,201,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,168,0,92
+1511191989910,215,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,178,0,82
+1511191993899,206,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,167,0,83
+1511191997756,197,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,159,0,85
+1511192001929,279,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,245,0,83
+1511192005926,288,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,242,0,87
+1511192009921,301,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,254,0,92
+1511192013938,364,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,310,0,96
+1511192017920,1288,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,1248,0,94
+1511192021840,299,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,262,0,84
+1511192025938,288,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,251,0,87
+1511192037942,357,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,300,0,96
+1511192188610,4024,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,3563,0,85
+1511192192796,532,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,179,0,111
+1511192200977,714,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,177,0,87
+1511192204830,786,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,213,0,105
+1511192208848,737,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,196,0,96
+1511192212745,756,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,173,0,77
+1511192215799,793,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,251,0,98
+1511192218925,710,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,164,0,79
+1511192223815,774,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,213,0,95
+1511192226116,371,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,333,0,108
+1511192233609,318,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,269,0,107
+1511192236623,1143,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,608,0,92
+1511192237429,389,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,337,0,85
+1511192245354,282,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,234,0,99
+1511192249403,247,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,202,0,103
+1511192257348,277,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,231,0,108
+1511192261429,227,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,180,0,86
+1511192253385,11469,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,11408,0,93
+1511192265367,222,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,181,0,94
+1511192269768,220,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,181,0,97
+1511192273823,712,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,626,0,106
+1511192276999,238,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,199,0,107
+1511192281752,213,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,164,0,91
+1511192285857,217,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,175,0,78
+1511192289894,224,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,182,0,99
+1511192290674,523,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,94
+1511192293864,244,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,210,0,114
+1511192297909,210,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,168,0,86
+1511192305920,295,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,253,0,86
+1511192309920,251,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,210,0,73
+1511192313431,295,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,247,0,84
+1511192317905,344,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,306,0,90
+1511192321931,318,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,284,0,84
+1511192325925,1388,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,1360,0,1181
+1511192329919,298,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,252,0,89
+1511192333619,309,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,271,0,91
+1511192337899,377,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,321,0,86
+1511192341931,316,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,277,0,105
+1511192345847,219,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,172,0,87
+1511192357799,223,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,179,0,86
+1511192508668,1351,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,741,0,90
+1511192512204,682,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,186,0,94
+1511192516666,1491,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,956,0,111
+1511192521975,798,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,214,0,111
+1511192528008,750,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,189,0,78
+1511192532626,785,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,195,0,101
+1511192535066,747,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,175,0,82
+1511192539972,769,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,197,0,86
+1511192544790,371,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,310,0,107
+1511192546827,529,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,168,0,103
+1511192549462,213,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,172,0,84
+1511192552653,233,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,178,0,84
+1511192557344,244,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,192,0,104
+1511192559797,511,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,160,0,99
+1511192565392,215,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,173,0,85
+1511192569358,199,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,158,0,80
+1511192573393,231,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,190,0,109
+1511192577375,320,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,255,0,80
+1511192581768,220,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,185,0,96
+1511192589613,2958,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,2887,0,2685
+1511192593927,219,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,175,0,88
+1511192597907,230,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,187,0,102
+1511192601899,239,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,199,0,89
+1511192605630,1233,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,1188,0,90
+1511192609927,256,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,212,0,112
+1511192613942,250,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,213,0,86
+1511192617912,819,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,782,0,87
+1511192621811,204,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,88
+1511192625922,222,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,186,0,85
+1511192627184,214,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,103
+1511192633923,233,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,197,0,86
+1511192637913,207,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,169,0,84
+1511192641901,242,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,195,0,87
+1511192644908,254,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,217,0,119
+1511192649887,845,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,807,0,112
+1511192653890,327,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,269,0,110
+1511192657322,210,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,172,0,86
+1511192661937,817,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,774,0,110
+1511192669930,212,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,173,0,89
+1511192685886,837,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,795,0,92
+1511192819572,1386,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,810,0,85
+1511192832327,770,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,252,0,104
+1511192832889,644,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,184,0,81
+1511192840311,594,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,184,0,117
+1511192848291,530,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,161,0,89
+1511192851946,533,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,158,0,83
+1511192856458,552,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,180,0,114
+1511192860755,248,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,211,0,92
+1511192864578,518,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,158,0,91
+1511192868358,516,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,180,0,111
+1511192873373,221,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,183,0,86
+1511192877500,435,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,394,0,90
+1511192881546,2389,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,2348,0,2005
+1511192884891,513,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,153,0,89
+1511192889612,231,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,187,0,87
+1511192893607,217,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,177,0,91
+1511192897591,401,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,348,0,91
+1511192901892,320,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,287,0,88
+1511192905625,309,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,267,0,85
+1511192909628,272,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,229,0,91
+1511192913921,381,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,333,0,111
+1511192917705,287,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,241,0,87
+1511192919753,299,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,260,0,88
+1511192925594,330,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,278,0,85
+1511192929909,304,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,264,0,98
+1511192933924,368,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,329,0,86
+1511192937739,255,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,218,0,109
+1511192941823,291,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,252,0,87
+1511192945830,249,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,208,0,110
+1511192949866,226,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,186,0,87
+1511192953764,213,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,175,0,86
+1511192957856,233,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,188,0,85
+1511192961845,297,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,252,0,86
+1511192965807,242,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,196,0,103
+1511192969836,233,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,197,0,104
+1511192973775,221,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,181,0,96
+1511192977886,218,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,181,0,94
+1511192985893,218,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,169,0,87
+1511192989916,227,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,177,0,98
+1511193005901,270,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,226,0,90
+1511193139160,1812,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,1149,0,256
+1511193152430,519,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,152,0,84
+1511193156435,526,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,143,0,77
+1511193160151,1192,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,159,0,91
+1511193168053,516,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,156,0,89
+1511193171139,516,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,157,0,93
+1511193175168,518,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,150,0,84
+1511193180321,221,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,181,0,99
+1511193184118,516,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,149,0,85
+1511193188531,998,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,643,0,80
+1511193193623,245,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,201,0,110
+1511193197616,225,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,190,0,102
+1511193200924,373,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,335,0,94
+1511193204082,776,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,200,0,91
+1511193209626,469,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,430,0,96
+1511193213626,284,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,232,0,96
+1511193217624,325,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,279,0,88
+1511193221918,296,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,258,0,84
+1511193225623,243,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,205,0,90
+1511193229143,385,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,354,0,89
+1511193233899,1286,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,1251,0,102
+1511193237917,220,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,184,0,86
+1511193241767,220,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,184,0,86
+1511193245366,220,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,180,0,88
+1511193249669,418,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,385,0,310
+1511193253860,226,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,190,0,87
+1511193257818,209,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,171,0,86
+1511193261845,235,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,183,0,103
+1511193265898,213,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,175,0,85
+1511193269756,219,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,179,0,87
+1511193272856,236,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,187,0,88
+1511193277926,209,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,181,0,87
+1511193281921,217,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,179,0,92
+1511193285920,215,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,176,0,84
+1511193289726,207,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,176,0,101
+1511193293915,237,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,190,0,96
+1511193297934,212,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,170,0,88
+1511193305932,323,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,270,0,103
+1511193309922,304,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,270,0,93
+1511193325926,592,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,563,0,86
+1511193459924,1195,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,813,0,99
+1511193472210,511,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,150,0,84
+1511193475027,500,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,155,0,90
+1511193478972,507,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,158,0,91
+1511193488827,506,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,120,0,68
+1511193492688,514,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,157,0,91
+1511193496862,773,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,152,0,92
+1511193500948,512,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,403,0,111
+1511193504717,1577,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,926,0,106
+1511193508939,836,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,186,0,86
+1511193513628,300,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,263,0,106
+1511193517643,326,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,293,0,82
+1511193521633,1147,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,1106,0,81
+1511193523453,1297,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,769,0,80
+1511193529634,344,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,304,0,91
+1511193533628,312,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,272,0,87
+1511193537369,460,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,415,0,87
+1511193541632,206,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,170,0,85
+1511193544565,229,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,188,0,98
+1511193549305,215,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,179,0,90
+1511193553844,221,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,178,0,93
+1511193557795,222,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,173,0,90
+1511193560993,223,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,176,0,98
+1511193564842,818,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,777,0,115
+1511193569795,872,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,827,0,111
+1511193573828,211,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,87
+1511193577678,211,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,176,0,87
+1511193581936,211,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,174,0,88
+1511193585912,186,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,161,0,83
+1511193589927,223,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,186,0,89
+1511193593921,217,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,168,0,90
+1511193601918,305,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,269,0,87
+1511193605321,320,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,278,0,84
+1511193609271,308,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,267,0,92
+1511193613931,330,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,291,0,85
+1511193617931,331,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,288,0,104
+1511193625955,306,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,265,0,91
+1511193629919,1061,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,1021,0,87
+1511193641822,389,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,355,0,116
+1511193597919,58817,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,58769,0,87
+1511193778660,1108,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,637,0,167
+1511193792309,886,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,517,0,109
+1511193796220,583,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,198,0,135
+1511193804803,1470,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,164,0,84
+1511193807551,850,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,347,0,85
+1511193810651,688,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,195,0,96
+1511193816450,1077,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,537,0,87
+1511193821033,326,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,271,0,85
+1511193822747,1837,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,1211,0,95
+1511193828023,680,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,181,0,87
+1511193833256,362,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,315,0,134
+1511193837560,301,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,261,0,95
+1511193839873,555,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,162,0,83
+1511193844672,243,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,197,0,85
+1511193849289,213,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,175,0,77
+1511193853454,248,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,210,0,105
+1511193857067,227,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,191,0,93
+1511193861814,328,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,287,0,84
+1511193864304,231,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,190,0,114
+1511193869462,237,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,189,0,96
+1511193873777,215,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,179,0,91
+1511193877838,228,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,183,0,108
+1511193881589,253,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,202,0,109
+1511193885898,242,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,206,0,109
+1511193889929,218,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,96
+1511193893891,209,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,172,0,94
+1511193897913,219,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,178,0,85
+1511193901813,367,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,329,0,101
+1511193905912,308,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,269,0,86
+1511193909905,322,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,277,0,83
+1511193913926,296,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,256,0,83
+1511193917913,310,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,268,0,74
+1511193921888,349,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,304,0,81
+1511193925900,403,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,361,0,89
+1511193929924,353,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,308,0,92
+1511193933935,386,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,339,0,91
+1511193937925,383,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,343,0,83
+1511193945835,386,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,347,0,85
+1511193949819,360,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,319,0,78
+1511193961792,308,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,270,0,86
+1511194100089,1351,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,744,0,120
+1511194111973,804,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,260,0,161
+1511194116719,841,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,219,0,91
+1511194123178,938,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,180,0,82
+1511194127994,731,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,215,0,96
+1511194132499,979,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,434,0,272
+1511194135954,762,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,213,0,105
+1511194136789,746,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,274,0,90
+1511194144208,1620,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,213,0,91
+1511194147937,735,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,178,0,83
+1511194153337,334,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,286,0,72
+1511194157300,371,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,323,0,109
+1511194161206,237,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,195,0,104
+1511194163921,554,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,162,0,98
+1511194169412,252,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,216,0,126
+1511194173163,219,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,175,0,88
+1511194177381,231,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,187,0,90
+1511194181393,226,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,196,0,113
+1511194184523,228,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,183,0,99
+1511194189406,208,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,173,0,83
+1511194193808,215,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,178,0,91
+1511194197769,216,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,174,0,92
+1511194201904,321,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,280,0,87
+1511194205588,324,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,286,0,90
+1511194209888,343,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,297,0,86
+1511194213922,323,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,287,0,93
+1511194217907,324,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,276,0,92
+1511194221917,307,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,267,0,86
+1511194225915,307,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,271,0,86
+1511194229935,339,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,291,0,95
+1511194233924,592,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,548,0,95
+1511194237926,344,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,299,0,114
+1511194241819,365,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,325,0,92
+1511194245818,245,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,202,0,82
+1511194249801,231,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,180,0,90
+1511194253819,2015,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,1550,0,898
+1511194257816,659,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,610,0,470
+1511194265835,2062,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,1329,0,727
+1511194269801,207,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,169,0,79
+1511194285897,775,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,735,0,111
+1511194416814,1374,Login,200,OK,Grupa wątków 1-1,text,true,LOGIN - Smoke test passed,16981,3388,10,10,790,0,84
+1511194431337,1610,Login,200,OK,Grupa wątków 1-3,text,true,LOGIN - Smoke test passed,16981,3388,10,10,221,0,114
+1511194432184,1090,Login,200,OK,Grupa wątków 1-4,text,true,LOGIN - Smoke test passed,16981,3388,10,10,541,0,88
+1511194439928,698,Login,200,OK,Grupa wątków 1-5,text,true,LOGIN - Smoke test passed,16981,3388,10,10,211,0,96
+1511194448529,598,Login,200,OK,Grupa wątków 1-6,text,true,LOGIN - Smoke test passed,16981,3388,10,10,195,0,108
+1511194451822,525,Login,200,OK,Grupa wątków 1-9,text,true,LOGIN - Smoke test passed,16981,3388,10,10,160,0,97
+1511194456768,218,Personal data,200,OK,Grupa wątków 1-1,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,184,0,85
+1511194459956,767,Login,200,OK,Grupa wątków 1-8,text,true,LOGIN - Smoke test passed,16981,3388,10,10,155,0,87
+1511194463636,513,Login,200,OK,Grupa wątków 1-7,text,true,LOGIN - Smoke test passed,16981,3388,10,10,151,0,86
+1511194468134,496,Login,200,OK,Grupa wątków 1-2,text,true,LOGIN - Smoke test passed,16981,3388,10,10,154,0,88
+1511194472530,218,Personal data,200,OK,Grupa wątków 1-3,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,181,0,83
+1511194477051,234,Personal data,200,OK,Grupa wątków 1-4,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,201,0,115
+1511194481444,257,Personal data,200,OK,Grupa wątków 1-5,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,219,0,89
+1511194484613,604,Login,200,OK,Grupa wątków 1-10,text,true,LOGIN - Smoke test passed,16981,3388,10,10,251,0,88
+1511194489545,232,Personal data,200,OK,Grupa wątków 1-6,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,190,0,90
+1511194493615,219,Personal data,200,OK,Grupa wątków 1-9,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,180,0,91
+1511194497921,282,Wish List,200,OK,Grupa wątków 1-1,text,true,WISH LIST - Smoke test passed,12672,684,10,10,233,0,110
+1511194501373,333,Personal data,200,OK,Grupa wątków 1-8,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,292,0,89
+1511194505629,325,Personal data,200,OK,Grupa wątków 1-7,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,277,0,98
+1511194509647,339,Personal data,200,OK,Grupa wątków 1-2,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,298,0,85
+1511194513921,306,Wish List,200,OK,Grupa wątków 1-3,text,true,WISH LIST - Smoke test passed,12672,684,10,10,268,0,92
+1511194517907,296,Wish List,200,OK,Grupa wątków 1-4,text,true,WISH LIST - Smoke test passed,12672,684,10,10,255,0,89
+1511194521883,315,Wish List,200,OK,Grupa wątków 1-5,text,true,WISH LIST - Smoke test passed,12672,684,10,10,272,0,92
+1511194525540,327,Personal data,200,OK,Grupa wątków 1-10,text,true,PERSONAL DATA - Smoke test passed,13650,683,10,10,286,0,93
+1511194529911,328,Wish List,200,OK,Grupa wątków 1-6,text,true,WISH LIST - Smoke test passed,12672,684,10,10,277,0,102
+1511194533922,312,Wish List,200,OK,Grupa wątków 1-9,text,true,WISH LIST - Smoke test passed,12672,684,10,10,266,0,100
+1511194537859,345,My orders,200,OK,Grupa wątków 1-1,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,296,0,83
+1511194541806,241,Wish List,200,OK,Grupa wątków 1-8,text,true,WISH LIST - Smoke test passed,12672,684,10,10,205,0,86
+1511194545818,210,Wish List,200,OK,Grupa wątków 1-7,text,true,WISH LIST - Smoke test passed,12672,684,10,10,169,0,75
+1511194549804,225,Wish List,200,OK,Grupa wątków 1-2,text,true,WISH LIST - Smoke test passed,12672,684,10,10,181,0,91
+1511194553838,220,My orders,200,OK,Grupa wątków 1-3,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,178,0,86
+1511194557845,220,My orders,200,OK,Grupa wątków 1-4,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,181,0,96
+1511194561826,211,My orders,200,OK,Grupa wątków 1-5,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,177,0,87
+1511194565816,210,Wish List,200,OK,Grupa wątków 1-10,text,true,WISH LIST - Smoke test passed,12672,684,10,10,184,0,88
+1511194569816,225,My orders,200,OK,Grupa wątków 1-6,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,180,0,95
+1511194573830,208,My orders,200,OK,Grupa wątków 1-9,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,167,0,91
+1511194581901,234,My orders,200,OK,Grupa wątków 1-8,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,189,0,92
+1511194585934,207,My orders,200,OK,Grupa wątków 1-7,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,173,0,90
+1511194589917,301,My orders,200,OK,Grupa wątków 1-2,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,263,0,88
+1511194605933,261,My orders,200,OK,Grupa wątków 1-10,text,true,MY ORDERS - Smoke test passed,12952,680,10,10,222,0,91

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+
+
+<sample t="508" it="0" lt="507" ct="492" ts="1511198595321" s="false" lb="JDBC Request Select" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="219" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``	if(ResponseCode.equals(&quot;200&quot;))  	{  		if(vars.getObject(&quot;Request_1&quot;).size() !=  . . . &apos;&apos;</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="1" it="0" lt="1" ct="0" ts="1511198595855" s="true" lb="JDBC Request Select and where" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="28" sby="0" ng="1" na="1"/>
+<sample t="9" it="0" lt="9" ct="0" ts="1511198595857" s="true" lb="JDBC Request Insert" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+<sample t="6" it="0" lt="6" ct="0" ts="1511198595866" s="true" lb="JDBC Request Update" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+<sample t="4" it="0" lt="3" ct="0" ts="1511198595873" s="true" lb="JDBC Request Delete" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+
+<sample t="45" it="0" lt="45" ct="43" ts="1511198688973" s="true" lb="JDBC Request Select" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="219" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage> DB_UP_AND_RUNNING </failureMessage>
+  </assertionResult>
+</sample>
+<sample t="1" it="0" lt="1" ct="0" ts="1511198689022" s="true" lb="JDBC Request Select and where" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="28" sby="0" ng="1" na="1"/>
+<sample t="5" it="0" lt="5" ct="0" ts="1511198689023" s="true" lb="JDBC Request Insert" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="3" ct="0" ts="1511198689029" s="true" lb="JDBC Request Update" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+<sample t="3" it="0" lt="3" ct="0" ts="1511198689033" s="true" lb="JDBC Request Delete" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+
+<sample t="37" it="0" lt="37" ct="35" ts="1511198742795" s="true" lb="JDBC Request Select" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="219" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage> DB_UP_AND_RUNNING </failureMessage>
+  </assertionResult>
+</sample>
+<sample t="2" it="0" lt="2" ct="0" ts="1511198744846" s="true" lb="JDBC Request Select and where" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="28" sby="0" ng="1" na="1"/>
+<sample t="8" it="0" lt="7" ct="0" ts="1511198744849" s="true" lb="JDBC Request Insert" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+<sample t="5" it="0" lt="5" ct="0" ts="1511198744858" s="true" lb="JDBC Request Update" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+<sample t="5" it="0" lt="5" ct="0" ts="1511198744864" s="true" lb="JDBC Request Delete" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="9" sby="0" ng="1" na="1"/>
+
+</testResults>

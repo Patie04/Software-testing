@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1511198595321,508,JDBC Request Select,200,OK,Grupa wątków 1-1,text,false,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``	if(ResponseCode.equals(""200""))  	{  		if(vars.getObject(""Request_1"").size() !=  . . . ''",219,0,1,1,507,0,492
+1511198688973,45,JDBC Request Select,200,OK,Grupa wątków 1-1,text,true, DB_UP_AND_RUNNING ,219,0,1,1,45,0,43
+1511198742795,37,JDBC Request Select,200,OK,Grupa wątków 1-1,text,true, DB_UP_AND_RUNNING ,219,0,1,1,37,0,35

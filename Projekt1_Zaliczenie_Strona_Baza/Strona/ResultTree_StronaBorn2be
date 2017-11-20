@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="331" it="0" lt="284" ct="206" ts="1511188868144" s="true" lb="Home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13126" sby="611" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion Home</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>HOME - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="204" it="0" lt="150" ct="102" ts="1511188872146" s="true" lb="Logo_Icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="20245" sby="483" ng="1" na="1"/>
+<httpSample t="3528" it="0" lt="1341" ct="94" ts="1511188876145" s="true" lb="Check random variable" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="851974" sby="208" ng="1" na="1"/>
+<httpSample t="1143" it="0" lt="805" ct="95" ts="1511188880144" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="16818" sby="3388" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>LOGIN - Smoke test passed</failureMessage>
+  </assertionResult>
+  <httpSample t="805" it="0" lt="805" ct="95" ts="1511188880144" s="true" lb="https://born2be.pl/login" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="551" sby="664" ng="1" na="1"/>
+  <httpSample t="70" it="0" lt="70" ct="33" ts="1511188880949" s="true" lb="http://born2be.pl/" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="365" sby="675" ng="1" na="1"/>
+  <httpSample t="51" it="0" lt="51" ct="0" ts="1511188881019" s="true" lb="https://born2be.pl/" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="243" sby="675" ng="1" na="1"/>
+  <httpSample t="38" it="0" lt="38" ct="0" ts="1511188881070" s="true" lb="http://born2be.pl/kobiety-home" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="377" sby="687" ng="1" na="1"/>
+  <httpSample t="178" it="0" lt="125" ct="0" ts="1511188881109" s="true" lb="https://born2be.pl/kobiety-home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="15282" sby="687" ng="1" na="1"/>
+</httpSample>
+<httpSample t="224" it="0" lt="179" ct="85" ts="1511188884145" s="true" lb="Personal data" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13503" sby="683" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>PERSONAL DATA - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="211" it="0" lt="166" ct="86" ts="1511188888145" s="true" lb="Wish List" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12524" sby="684" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>WISH LIST - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="211" it="0" lt="168" ct="87" ts="1511188892145" s="true" lb="My orders" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12950" sby="680" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>MY ORDERS - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="354" it="0" lt="156" ct="99" ts="1511188896158" s="true" lb="Logout" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13716" sby="2017" ng="1" na="1">
+  <httpSample t="156" it="0" lt="156" ct="99" ts="1511188896158" s="true" lb="https://born2be.pl/logout" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="357" sby="673" ng="1" na="1"/>
+  <httpSample t="89" it="0" lt="89" ct="48" ts="1511188896314" s="true" lb="http://born2be.pl/login" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="370" sby="672" ng="1" na="1"/>
+  <httpSample t="109" it="0" lt="74" ct="0" ts="1511188896403" s="true" lb="https://born2be.pl/login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12989" sby="672" ng="1" na="1"/>
+</httpSample>
+
+<httpSample t="432" it="0" lt="386" ct="209" ts="1511189005504" s="true" lb="Home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13271" sby="611" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion Home</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>HOME - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="213" it="0" lt="149" ct="90" ts="1511189009512" s="true" lb="Logo_Icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="20245" sby="483" ng="1" na="1"/>
+<httpSample t="5772" it="0" lt="2663" ct="88" ts="1511189013503" s="true" lb="Check random variable" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="853175" sby="208" ng="1" na="1"/>
+<httpSample t="752" it="0" lt="184" ct="86" ts="1511189019276" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="16963" sby="3388" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>LOGIN - Smoke test passed</failureMessage>
+  </assertionResult>
+  <httpSample t="184" it="0" lt="184" ct="86" ts="1511189019276" s="true" lb="https://born2be.pl/login" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="551" sby="664" ng="1" na="1"/>
+  <httpSample t="81" it="0" lt="81" ct="30" ts="1511189019461" s="true" lb="http://born2be.pl/" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="365" sby="675" ng="1" na="1"/>
+  <httpSample t="94" it="0" lt="94" ct="0" ts="1511189019543" s="true" lb="https://born2be.pl/" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="243" sby="675" ng="1" na="1"/>
+  <httpSample t="54" it="0" lt="54" ct="0" ts="1511189019637" s="true" lb="http://born2be.pl/kobiety-home" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="377" sby="687" ng="1" na="1"/>
+  <httpSample t="337" it="0" lt="292" ct="0" ts="1511189019691" s="true" lb="https://born2be.pl/kobiety-home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="15427" sby="687" ng="1" na="1"/>
+</httpSample>
+<httpSample t="327" it="0" lt="290" ct="77" ts="1511189023278" s="true" lb="Personal data" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13647" sby="683" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>PERSONAL DATA - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="476" it="0" lt="333" ct="193" ts="1511189027277" s="true" lb="Wish List" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12670" sby="684" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>WISH LIST - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="339" it="0" lt="292" ct="221" ts="1511189091624" s="true" lb="Home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13271" sby="611" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion Home</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>HOME - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="109" it="0" lt="56" ct="0" ts="1511189091975" s="true" lb="Logo_Icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="20245" sby="483" ng="1" na="1"/>
+<httpSample t="3509" it="0" lt="306" ct="0" ts="1511189092085" s="true" lb="Check random variable" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="853175" sby="208" ng="1" na="1"/>
+<httpSample t="541" it="0" lt="171" ct="97" ts="1511189095595" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="16963" sby="3388" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>LOGIN - Smoke test passed</failureMessage>
+  </assertionResult>
+  <httpSample t="171" it="0" lt="171" ct="97" ts="1511189095595" s="true" lb="https://born2be.pl/login" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="551" sby="664" ng="1" na="1"/>
+  <httpSample t="89" it="0" lt="89" ct="42" ts="1511189095766" s="true" lb="http://born2be.pl/" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="365" sby="675" ng="1" na="1"/>
+  <httpSample t="56" it="0" lt="56" ct="0" ts="1511189095855" s="true" lb="https://born2be.pl/" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="243" sby="675" ng="1" na="1"/>
+  <httpSample t="51" it="0" lt="51" ct="0" ts="1511189095911" s="true" lb="http://born2be.pl/kobiety-home" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="377" sby="687" ng="1" na="1"/>
+  <httpSample t="174" it="0" lt="138" ct="0" ts="1511189095962" s="true" lb="https://born2be.pl/kobiety-home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="15427" sby="687" ng="1" na="1"/>
+</httpSample>
+<httpSample t="133" it="0" lt="87" ct="0" ts="1511189096139" s="true" lb="Personal data" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13647" sby="683" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>PERSONAL DATA - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="125" it="0" lt="86" ct="0" ts="1511189096278" s="true" lb="Wish List" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12670" sby="684" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>WISH LIST - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="124" it="0" lt="80" ct="0" ts="1511189096406" s="true" lb="My orders" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12950" sby="680" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>MY ORDERS - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="210" it="0" lt="47" ct="0" ts="1511189096533" s="true" lb="Logout" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13716" sby="2017" ng="1" na="1">
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1511189096533" s="true" lb="https://born2be.pl/logout" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="357" sby="673" ng="1" na="1"/>
+  <httpSample t="52" it="0" lt="52" ct="0" ts="1511189096580" s="true" lb="http://born2be.pl/login" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="370" sby="672" ng="1" na="1"/>
+  <httpSample t="110" it="0" lt="79" ct="0" ts="1511189096633" s="true" lb="https://born2be.pl/login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12989" sby="672" ng="1" na="1"/>
+</httpSample>
+
+<httpSample t="331" it="0" lt="288" ct="207" ts="1511189163485" s="true" lb="Home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13271" sby="611" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion Home</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>HOME - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="95" it="0" lt="42" ct="0" ts="1511189163823" s="true" lb="Logo_Icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="20245" sby="483" ng="1" na="1"/>
+<httpSample t="2041" it="0" lt="270" ct="0" ts="1511189163919" s="true" lb="Check random variable" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="853879" sby="208" ng="1" na="1"/>
+<httpSample t="506" it="0" lt="154" ct="81" ts="1511189165961" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="16963" sby="3388" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>LOGIN - Smoke test passed</failureMessage>
+  </assertionResult>
+  <httpSample t="154" it="0" lt="154" ct="81" ts="1511189165961" s="true" lb="https://born2be.pl/login" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="551" sby="664" ng="1" na="1"/>
+  <httpSample t="91" it="0" lt="91" ct="36" ts="1511189166116" s="true" lb="http://born2be.pl/" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="365" sby="675" ng="1" na="1"/>
+  <httpSample t="51" it="0" lt="51" ct="0" ts="1511189166207" s="true" lb="https://born2be.pl/" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="243" sby="675" ng="1" na="1"/>
+  <httpSample t="46" it="0" lt="46" ct="0" ts="1511189166258" s="true" lb="http://born2be.pl/kobiety-home" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="377" sby="687" ng="1" na="1"/>
+  <httpSample t="163" it="0" lt="127" ct="0" ts="1511189166304" s="true" lb="https://born2be.pl/kobiety-home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="15427" sby="687" ng="1" na="1"/>
+</httpSample>
+<httpSample t="108" it="0" lt="73" ct="0" ts="1511189166475" s="true" lb="Personal data" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13647" sby="683" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>PERSONAL DATA - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="110" it="0" lt="75" ct="0" ts="1511189166592" s="true" lb="Wish List" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12670" sby="684" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>WISH LIST - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="116" it="0" lt="81" ct="0" ts="1511189166709" s="true" lb="My orders" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12950" sby="680" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>MY ORDERS - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="213" it="0" lt="47" ct="0" ts="1511189166832" s="true" lb="Logout" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13716" sby="2017" ng="1" na="1">
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1511189166832" s="true" lb="https://born2be.pl/logout" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="357" sby="673" ng="1" na="1"/>
+  <httpSample t="58" it="0" lt="58" ct="0" ts="1511189166879" s="true" lb="http://born2be.pl/login" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="370" sby="672" ng="1" na="1"/>
+  <httpSample t="107" it="0" lt="79" ct="0" ts="1511189166938" s="true" lb="https://born2be.pl/login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12989" sby="672" ng="1" na="1"/>
+</httpSample>
+
+<httpSample t="342" it="0" lt="288" ct="208" ts="1511189294678" s="true" lb="Home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13274" sby="611" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion Home</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>HOME - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="193" it="0" lt="140" ct="87" ts="1511189298337" s="true" lb="Logo_Icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="20245" sby="483" ng="1" na="1"/>
+<httpSample t="3782" it="0" lt="2399" ct="92" ts="1511189302478" s="true" lb="Check random variable" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="853995" sby="208" ng="1" na="1"/>
+<httpSample t="1330" it="0" lt="743" ct="82" ts="1511189306261" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="16963" sby="3388" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>LOGIN - Smoke test passed</failureMessage>
+  </assertionResult>
+  <httpSample t="743" it="0" lt="743" ct="82" ts="1511189306261" s="true" lb="https://born2be.pl/login" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="551" sby="664" ng="1" na="1"/>
+  <httpSample t="79" it="0" lt="79" ct="41" ts="1511189307004" s="true" lb="http://born2be.pl/" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="365" sby="675" ng="1" na="1"/>
+  <httpSample t="94" it="0" lt="94" ct="0" ts="1511189307083" s="true" lb="https://born2be.pl/" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="243" sby="675" ng="1" na="1"/>
+  <httpSample t="46" it="0" lt="46" ct="0" ts="1511189307177" s="true" lb="http://born2be.pl/kobiety-home" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="377" sby="687" ng="1" na="1"/>
+  <httpSample t="368" it="0" lt="325" ct="0" ts="1511189307223" s="true" lb="https://born2be.pl/kobiety-home" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="15427" sby="687" ng="1" na="1"/>
+</httpSample>
+<httpSample t="292" it="0" lt="240" ct="86" ts="1511189309346" s="true" lb="Personal data" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13650" sby="683" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>PERSONAL DATA - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="330" it="0" lt="290" ct="86" ts="1511189314378" s="true" lb="Wish List" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12672" sby="684" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>WISH LIST - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="323" it="0" lt="282" ct="88" ts="1511189318345" s="true" lb="My orders" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12952" sby="680" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>MY ORDERS - Smoke test passed</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="658" it="0" lt="303" ct="166" ts="1511189322348" s="true" lb="Logout" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="13717" sby="2017" ng="1" na="1">
+  <httpSample t="303" it="0" lt="303" ct="166" ts="1511189322348" s="true" lb="https://born2be.pl/logout" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="357" sby="673" ng="1" na="1"/>
+  <httpSample t="181" it="0" lt="181" ct="42" ts="1511189322652" s="true" lb="http://born2be.pl/login" rc="301" rm="Moved Permanently" tn="Grupa wątków 1-1" dt="text" by="370" sby="672" ng="1" na="1"/>
+  <httpSample t="173" it="0" lt="139" ct="0" ts="1511189322833" s="true" lb="https://born2be.pl/login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="12990" sby="672" ng="1" na="1"/>
+</httpSample>
+
+</testResults>
