@@ -1,0 +1,5 @@
+JDBC Request Select , 1 
+JDBC Request Select and where, 1 
+JDBC Request Insert , 1 
+JDBC Request Update , 1 
+JDBC Request Delete, 1 
